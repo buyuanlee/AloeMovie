@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "不远",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vant-weapp": "^0.5.12"
+  }
 }
