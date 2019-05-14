@@ -7,9 +7,9 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"nodeModules": true,
 		"autoAudits": false,
-		"checkInvalidKey": true,
-		"nodeModules": true
+		"checkInvalidKey": true
 	},
 	"appid": "wxa88adb24635b8c6c",
 	"projectname": "AloeMovie",
