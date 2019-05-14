@@ -4,11 +4,30 @@
     "pages/profile/profile"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#3196FA",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#3196FA",
+    "navigationBarTitleText": "芦荟影讯",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#3196FA",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "影讯",
+        "iconPath": "images/movie.png",
+        "selectedIconPath": "images/movie-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-active.png"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }
