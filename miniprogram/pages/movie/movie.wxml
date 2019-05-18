@@ -1,2 +1,11 @@
 <!--pages/movie/movie.wxml-->
-<text>pages/movie/movie.wxml</text>
+<view class='movie' wx:for="{{movieList}}" wx:key="{{index}}">
+  <image class='movie-poster' src='{{item.images.small}}'></image>
+  <view class='movie-info'>
+    <view class='movie-title'>{{item.title}}</view>
+    <view>评分:{{item.rating.average}}分</view>
+    <view>主演名单:</view>
+    <view wx:for="{{item.casts}}" wx:key="{{index}}">{{item.name}}</view>
+    <view>上映日期:{{item.pubdates[item.pubdates.length-1]}}</view>
+  </view>
+</view>
