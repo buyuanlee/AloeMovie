@@ -9,6 +9,6 @@
   "author": "不远",
   "license": "ISC",
   "dependencies": {
-    "vant-weapp": "^0.5.12"
+    "vant-weapp": "^0.5.13"
   }
 }

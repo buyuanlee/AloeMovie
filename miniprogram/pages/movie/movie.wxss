@@ -7,9 +7,8 @@
 .movie-poster{
   width: 200rpx;
   height: 300rpx;
-  margin-right: 20rpx;
-
-  align-content: center;
+  margin: auto 0;
+  padding-right: 10px;
 }
 
 .movie-info{
