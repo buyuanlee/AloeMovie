@@ -5,8 +5,8 @@
 }
 
 .movie-poster{
-  width: 200rpx;
-  height: 300rpx;
+  width: 240rpx;
+  height: 360rpx;
   margin: auto 0;
   padding-right: 10px;
 }
@@ -18,7 +18,7 @@
 }
 
 .movie-title{
-  color: #666;
+  color: #faaf00;
   font-size: 40rpx;
   font-weight: bolder;
 }
@@ -29,8 +29,8 @@
 
 .movie-comment{
   height: 60rpx;
-  background: #E54847;
+  background: #34A7F9;
   color: #fff;
   font-size: 26rpx;
-  margin-top: 120rpx;
+  margin-top: 20rpx;
 }
