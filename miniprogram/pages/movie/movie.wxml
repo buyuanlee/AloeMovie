@@ -11,6 +11,6 @@
       </text>
     </view>
     <view>上映日期:{{item.pubdates[item.pubdates.length-1]}}</view>
-    <button class="movie-comment">评价</button>
+    <button data-movieid="{{item.id}}" class="movie-comment" bindtap="gotoComment">评价</button>
   </view>
 </view>

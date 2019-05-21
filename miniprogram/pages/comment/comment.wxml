@@ -1,0 +1,15 @@
+<!--miniprogram/pages/comment/comment.wxml-->
+<view>
+  <view class="movie-bg" style='background: url({{details.images.large}}) no-repeat center/cover'></view>
+  <view class="mask"></view>
+  <view class="movie-info">
+    <image src='{{details.images.small}}' class="movie-poster"></image>
+    <view class="movie-summary">
+      <view class="movie-title">{{details.title}}</view>
+      <view>{{details.original_title}}</view>
+      <view class='details.sc'>{{details.rating.average}}分</view>
+      <view>{{details.countries[0]}}</view>
+      <view>导演：{{details.directors[0].name}}</view>
+    </view>
+  </view>
+</view>
