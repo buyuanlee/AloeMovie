@@ -6,14 +6,14 @@
   box-sizing: border-box;
 } 
 
-button {
-  background: initial;
+van-button {
+  height: 20rpx;
 }
 
-button:focus{
+van-button:focus{
   outline: 0;
 }
 
-button::after{
+van-button::after{
   border: none;
 }

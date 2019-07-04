@@ -36,10 +36,10 @@
 			"current": 0,
 			"list": [
 				{
-					"id": 0,
+					"id": -1,
 					"name": "详情",
 					"pathName": "pages/comment/comment",
-					"query": "movieid=26835471",
+					"query": "movieid=1291561",
 					"scene": null
 				}
 			]

@@ -4,13 +4,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-    details:{}
+    details: {}
   },
   /**
    * 生命周期函数--监听页面加载
    */
+
   onLoad: function(options) {
     console.log(options)
+    wx.showLoading({
+      title: '加载中',
+    })
     wx.cloud.callFunction({
       name: "getDetails",
       data: {
@@ -19,7 +23,7 @@ Page({
     }).then(res => {
       console.log(res)
       this.setData({
-        details:JSON.parse(res.result)
+        details: JSON.parse(res.result)
       })
     }).catch(err => {
       console.error(err)

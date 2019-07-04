@@ -28,6 +28,7 @@
 }
 
 .movie-comment{
+
   height: 60rpx;
   background: #34A7F9;
   color: #fff;
